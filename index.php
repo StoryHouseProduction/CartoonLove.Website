@@ -1,0 +1,121 @@
+<?php 
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="oem.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="oem.ico">	
+    <link rel="stylesheet" href="style_index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Home Page | CartoonLovePangKung's Website</title>
+</head>
+<body bgcolor="#f1d2d4" >
+    
+    <div class="homeheader">
+    <img src="oem.bmp" width="200" height="200">	  
+            <font size="30"><font color="#FFFFFF">CartoonLovePangKung's Website</font>	
+            </font></div><font size="30">
+    </div>
+<ul>	  
+    <li>
+        <a href="index.php">Home</a></li>
+        <li class="dropdown">		
+            <a href="javascript:void(0)" class="dropbtn cc_pointer">Links</a>		
+            <div class="dropdown-content">		  
+                <a href="https://krittapath6699.wixsite.com/website">Wix Website!</a>			
+            </div>
+			</li>
+			<li>
+			<a href="archive.php">Archive</a>	
+			<a href="#downloads">Downloads</a></li>	
+            <?php if (isset($_SESSION['username'])) : ?>
+            <div class="username">
+            <li>
+                <h>
+                         <a href="account.php"><?php echo $_SESSION['username']; ?></a>
+                </h>
+            </div>
+            </li>
+        <?php endif ?>
+        <?php if (!isset($_SESSION['username'])) : ?>
+            <div class="username">
+            <li>
+            <h>
+                         <a href="login\">Login</a>
+                </h>
+            </div>
+        <?php endif ?>
+            </li>
+    </div>
+    <marquee behavior="scrolling"><br>
+           <div class="homecontent">
+        <!--  notification message -->
+        <?php if (isset($_SESSION['success'])) : ?>
+            <div class="success">
+                <h3>
+                    <?php 
+                        echo $_SESSION['success'];
+                        unset($_SESSION['success']);
+                    ?>
+                </h3>
+            </div>
+        <?php else : 
+            echo "Welcome To My Website!" ?>
+        <?php endif ?></marquee>
+</ul>
+<br>
+<center>		
+        <br>
+        <br>
+        <br> Annoucement !
+        <br> 
+        <br> We are sad to announce this, but we will
+        <br> discontinued this website on 20 August 2021
+        <br> Because I can't continue to use this name anymore, So Please understand.
+
+        <br> We will dump this website this Tuesday and release it on Github.
+        <br> So. You can go and use this template or develop it better.
+        <br> Or download the old version of the website at changelogs. 
+        <br>
+        <br> <a href="changelogs.html" button class="button button1">Changelogs</a> 
+        <br> 
+        <br> Thank you all for visiting.
+        <br> We still make a website like this. So anyone can learn more about me.
+        <br>
+        <br>
+        <br> <iframe src="https://anchor.fm/cartoonlovepangpodcast/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        <br>
+		<br> <div id="Testfont">Download Section [Temporary!]</div>
+		<br>
+		<br><a href="https://drive.google.com/file/d/1ofIzGQDqvi4Ewy3HEuklhhteb7UccSCM/view?usp=sharing" button class="button button1">Test Download Fonts IbisPaint</a>
+		<br><a href="download/KMSoffline.rar" button class="button button1">Download KMSoffline</a>
+        <br>
+        <br><font size="18">Follow our social.</font> 		
+        <br>		
+        <br>		
+        <br>		
+        <br><font size="18">Like Our Fanpage.</font>		
+        <br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMissyoupromploy%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flearnitwithcartoon%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPangKungCh%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	<br><font size ="18">Or Just Listen to the music.</font>
+	<br><iframe src="https://open.spotify.com/embed/playlist/3cETaBZFQtpkrtZEqtAwo2" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	<iframe src="https://open.spotify.com/embed/playlist/22makAFcjuWhCrFNg3nUfK" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <br>		
+        <br>
+        <br>		
+        <br>
+</center>
+        <div id="footer">	  
+            <font size="20">2014 - 2021 Cartoon Production Incoperated.</font>	
+    </div>
+    <script>
+function account_notalivable() {
+  alert("Account menus is on developement. Come back later!");
+}
+</script>
+</body>
+</html>
