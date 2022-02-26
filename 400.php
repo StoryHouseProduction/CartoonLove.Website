@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="style_index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>400 | CartoonLovePangKung's Website</title>
+    <title>400 | Cartoon's Website</title>
 </head>
 <body bgcolor="#f1d2d4">
     
     <div class="homeheader">
     <img src="oem.bmp" width="200" height="200">	  
-            <font size="30"><font color="#FFFFFF">CartoonLovePangKung's Website</font>	
+            <font size="30"><font color="#FFFFFF">Cartoon's Website</font>	
             </font></div><font size="30">
     </div>
 <ul>	  
