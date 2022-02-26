@@ -56,8 +56,6 @@
 		<br>
 		<br><a href="cartoonlovepangkung/" button class="button button1">CartoonLovePangKung's Archive</a>
 		<br>
-		<br><button class="button button1" onclick="eastereggpopup1()">Promploy's Archive</button>
-        <br>
         <br> Use for educational purposes only!	
     </center>
 
