@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style_index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archive Page | CartoonLovePangKung's Website</title>	
+    <title>Archive Page | Cartoon's Website</title>	
 </head>
 <body bgcolor="#f1d2d4">
     
