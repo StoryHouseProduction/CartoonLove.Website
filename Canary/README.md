@@ -1,2 +1,3 @@
-# register-login-php-
-register login php 
+---
+permalink: /index.php
+---
