@@ -16,7 +16,7 @@
     
     <div class="homeheader">
     <img src="oem.bmp" width="200" height="200">	  
-            <font size="30"><font color="#FFFFFF">CartoonLovePangKung's Website</font>	
+            <font size="30"><font color="#FFFFFF">Cartoon's Website</font>	
             </font></div><font size="30">
     </div>
 <ul>	  
@@ -58,12 +58,5 @@
 		<br>
         <br> Use for educational purposes only!	
     </center>
-
-    <script>
-function eastereggpopup1() {
-  alert("Promploy's Archive is on developement. Come back later!");
-}
-</script>
-
 </body>
 </html>
