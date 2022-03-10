@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="style_index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Home Page | CartoonLovePangKung's Website</title>
+    <title>Home Page | Cartoon's Website</title>
 </head>
 <body bgcolor="#f1d2d4" >
     
     <div class="homeheader">
     <img src="oem.bmp" width="200" height="200">	  
-            <font size="30"><font color="#FFFFFF">CartoonLovePangKung's Website</font>	
+            <font size="30"><font color="#FFFFFF">Cartoon's Website</font>	
             </font></div><font size="30">
     </div>
 <ul>	  
@@ -90,8 +90,7 @@
         <br>
 		<br> <div id="Testfont">Download Section [Temporary!]</div>
 		<br>
-		<br><a href="https://drive.google.com/file/d/1ofIzGQDqvi4Ewy3HEuklhhteb7UccSCM/view?usp=sharing" button class="button button1">Test Download Fonts IbisPaint</a>
-		<br><a href="download/KMSoffline.rar" button class="button button1">Download KMSoffline</a>
+		<br> <div id="Testfont">This feature won't work anymore.</div>
         <br>
         <br><font size="18">Follow our social.</font> 		
         <br>		
@@ -100,10 +99,8 @@
         <br><font size="18">Like Our Fanpage.</font>		
         <br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMissyoupromploy%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flearnitwithcartoon%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPangKungCh%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 	<br><font size ="18">Or Just Listen to the music.</font>
 	<br><iframe src="https://open.spotify.com/embed/playlist/3cETaBZFQtpkrtZEqtAwo2" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-	<iframe src="https://open.spotify.com/embed/playlist/22makAFcjuWhCrFNg3nUfK" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         <br>		
         <br>
         <br>		
